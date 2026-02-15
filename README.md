@@ -62,25 +62,27 @@ Retention Action Recommendation
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
-Telecom-Churn-Intelligence/
+```
+Telecom-Churn-Intelligence-Platform/
 │
 ├── data/
-│ └── telco_churn.csv
+│   └── telco_churn.csv              # Dataset
 │
-├── train_model.py # Model training
-├── churn_system.py # Single customer prediction
-├── batch_predict.py # Batch CSV churn analysis
-├── schema_mapper.py # Dataset schema mapping
-├── utils.py # Business logic & helpers
+├── train_model.py                   # Model training
+├── churn_system.py                  # Single customer prediction
+├── batch_predict.py                 # Batch CSV churn analysis
+├── schema_mapper.py                 # Dataset schema mapping
+├── utils.py                         # Business logic & helpers
 │
-├── churn_model.pkl
-├── feature_names.pkl
-├── label_encoders.pkl
+├── churn_model.pkl                  # Trained ML model
+├── feature_names.pkl                # Feature list
+├── label_encoders.pkl               # Encoders
 │
-├── requirements.txt
-└── README.md
+├── requirements.txt                 # Dependencies
+└── README.md                        # Project documentation
+```
 
 ---
 
