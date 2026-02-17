@@ -41,7 +41,7 @@ The focus of this project is not just churn prediction, but **decision support**
 ---
 
 ## System Architecture
-
+```
 Customer Dataset (CSV)
 ↓
 Schema Mapping (column alignment)
@@ -59,7 +59,7 @@ Revenue Risk Calculation
 What-If Simulation
 ↓
 Retention Action Recommendation
-
+```
 ---
 
 ## 📁 Project Structure
